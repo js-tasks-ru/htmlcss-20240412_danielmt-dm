@@ -2,4 +2,20 @@
 .button {
     width: 182px;
     height: 48px;
+    border-radius: 8px;
+}
+
+.button-primary {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.button-secondary {
+    color: var(--white);
+    background-color: var(--secondary);
+}
+
+.button-alternate {
+    color: var(--black);
+    background-color: var(--secondary);
 }
