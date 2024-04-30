@@ -1,0 +1,57 @@
+:root {
+    --orange: #f8ab47;
+    --green: #469269;
+}
+header {
+    color: var(--white);
+    background-color: var(--red);
+    text-align: center;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+nav {
+    text-align: center;
+    font-size: 20px;
+    background-color: var(--orange);
+}
+
+nav a {
+    color: var(--white);
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+main {
+    background-color: var(--green);
+}
+
+main h2 {
+    margin: 10px 10px 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--white);
+}
+
+article li {
+    margin-left: 30px;
+    color: var(--white);
+}
+
+article {
+    background-color: var(--blue);
+}
+
+footer {
+    font-size: 20px;
+    background-color: var(--purple);
+}
+
+footer h1{
+    font-size: 50px;
+    text-align: center;
+    color: var(--white);
+}
