@@ -1,0 +1,17 @@
+.article {
+    padding: 10px 10px 10px 10px;
+    background-color: var(--blue);
+}
+
+.article__title {
+    margin: 10px 10px 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.article__item {
+    padding: 10px 10px 10px 10px;
+    margin-left: 30px;
+    color: var(--white);
+}

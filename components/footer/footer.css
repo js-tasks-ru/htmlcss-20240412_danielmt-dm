@@ -1,0 +1,11 @@
+.footer {
+    height: 50px;
+    font-size: 20px;
+    background-color: var(--purple);
+}
+
+.footer__title {
+    font-size: 50px;
+    text-align: center;
+    color: var(--white);
+}
