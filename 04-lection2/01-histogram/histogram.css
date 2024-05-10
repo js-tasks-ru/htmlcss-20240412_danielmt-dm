@@ -1,4 +1,5 @@
 .histogram__frame {
+    width: 40%;
     padding: 16px 24px 24px 26px;
     border: 1px solid;
     border-radius: 8px;
@@ -7,6 +8,7 @@
 }
 
 .histogram__statistic {
+    font-family: Inter, sans-serif;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -42,9 +44,14 @@
 }
 
 .histogram__columns {
-
+    display: flex;
+    height: 100px;
+    margin-top: 39px;
+    align-items: flex-end;
+    grid-gap: 1px;
 }
 
 .histogram__column {
-
+    flex-grow: 1;
+    background-color: var(--light_blue);
 }
