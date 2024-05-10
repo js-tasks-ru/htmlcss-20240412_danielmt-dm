@@ -1,9 +1,25 @@
-.histogram {
+.histogram__frame {
     padding: 16px 24px 24px 26px;
     border: 1px solid;
     border-radius: 8px;
     border-color: var(--grey-3);
     background-color: var(--white);
+}
+
+.histogram__statistic {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.histogram__statistic_title {
+    color: var(--black);
+    opacity: 80%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    flex-basis: 60%;
 }
 
 .histogram__statistic_link {
@@ -23,4 +39,12 @@
     font-weight: 400;
     line-height: 26px;
     margin: 0;
+}
+
+.histogram__columns {
+
+}
+
+.histogram__column {
+
 }
