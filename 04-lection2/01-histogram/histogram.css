@@ -21,10 +21,7 @@
 .histogram__link {
     display: flex;
     justify-content: flex-end;
-    font-size: 15px;
-    padding: 5px 0 0 0;
-    line-height: 24px;
-    flex-basis: 40%;
+    padding-top: 3px;
     text-decoration: none;
     color: var(--light_blue);
 }
