@@ -39,7 +39,7 @@
 
 .histogram__columns {
     display: flex;
-    height: 100px;
+    height: 50px;
     margin-top: 39px;
     align-items: flex-end;
     grid-gap: 1px;
