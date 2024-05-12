@@ -12,7 +12,7 @@
 
 .accordion__text {
     font-family: Inter, serif;
-    padding-top: 16px;
+    padding: 5px 0 0 20px;
     font-weight: 400;
     font-size: 16px;
     width: 649px;
@@ -28,7 +28,7 @@
 
 .accordion__details {
     width: 730px;
-    border: 1px solid gray;
+    border: 1px solid var(--grey-3);
     border-radius: 8px;
     padding: 5px;
     margin-bottom: 10px;
