@@ -16,10 +16,6 @@
     color: var(--black);
     opacity: 80%;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin: 0;
-    flex-basis: 60%;
 }
 
 .histogram__statistic_link {
