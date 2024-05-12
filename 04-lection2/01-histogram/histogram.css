@@ -12,7 +12,7 @@
     justify-content: space-between;
 }
 
-.histogram__statistic_title {
+.histogram__title {
     color: var(--black);
     opacity: 80%;
     font-size: 16px;
