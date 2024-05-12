@@ -18,25 +18,20 @@
     background-color: var(--primary);
 }
 
-.button:disabled{
-    opacity: 50%;
-}
-
 .button_secondary {
     border: 0;
     color: var(--white);
     background-color: var(--secondary);
 }
 
-.button_alternate {
-    border: 1px solid var(--grey-3);
-    color: var(--black);
-    background-color: var(--white);
+.button:disabled {
+    pointer-events: none;
+    opacity: 50%;
 }
 
-.button_alternate:disabled {
+.button_alternate {
     opacity: 30%;
-    color: var(--grey-4);
     border: 1px solid var(--grey-3);
+    color: var(--black);
     background-color: var(--white);
 }
