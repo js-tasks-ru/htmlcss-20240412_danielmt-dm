@@ -1,7 +1,10 @@
 /* Стилизация аккордеона */
 
-.accordion__summary {
+.accordion {
     font-family: Inter, serif;
+}
+
+.accordion__summary {
     background-color: var(--white);
     cursor: pointer;
     text-align: left;
@@ -10,7 +13,6 @@
 }
 
 .accordion__text {
-    font-family: Inter, serif;
     font-weight: 400;
     font-size: 16px;
     width: 649px;
@@ -22,14 +24,16 @@
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     margin-bottom: 8px;
+    padding: 24px 32px;
 }
 
-.accordion__item:last-child {
+.accordion__details:last-child {
     margin-bottom: 0;
 }
 
-.accordion__item[open] {
+.accordion__details[open] {
     margin-bottom: 0.5rem;
+    padding-bottom: 32px;
 }
 
 .accordion__summary::-webkit-details-marker { /* нестандартный псевдоэлемент Google Chrome */
