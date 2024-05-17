@@ -4,7 +4,6 @@
     font-family: Inter, serif;
     background-color: var(--white);
     cursor: pointer;
-    padding: 15px 15px 15px 10px;
     text-align: left;
     outline: none;
     transition: 0.4s;
@@ -12,18 +11,14 @@
 
 .accordion__text {
     font-family: Inter, serif;
-    padding: 5px 10px 10px 5px;
-    margin: 10px 5px 20px 20px;
     font-weight: 400;
     font-size: 16px;
     width: 649px;
-    height: 48px;
     color: var(--grey-4);
     display: inline-block;
 }
 
 .accordion__details {
-    width: 730px;
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     margin-bottom: 8px;
