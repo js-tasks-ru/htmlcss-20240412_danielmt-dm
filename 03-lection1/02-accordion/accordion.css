@@ -13,9 +13,9 @@
 }
 
 .accordion__text {
+    margin-top: 16px;
     font-weight: 400;
     font-size: 16px;
-    width: 649px;
     color: var(--grey-4);
     display: inline-block;
 }
@@ -32,7 +32,6 @@
 }
 
 .accordion__details[open] {
-    margin-bottom: 0.5rem;
     padding-bottom: 32px;
 }
 
